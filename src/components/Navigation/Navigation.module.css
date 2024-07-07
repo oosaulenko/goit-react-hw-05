@@ -1,0 +1,18 @@
+.navigation {
+    background-color: #333;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+
+    &.active {
+        color: #01b4e4;
+    }
+}
